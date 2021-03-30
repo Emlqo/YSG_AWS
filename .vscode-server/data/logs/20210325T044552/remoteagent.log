@@ -1,0 +1,43 @@
+[2021-03-25 04:45:52.671] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-03-25 04:45:52.671] [remoteagent] [info] Extension host agent started.
+[2021-03-25 04:45:53.658] [remoteagent] [info] [127.0.0.1][f2cc67bc][ManagementConnection] New connection established.
+[2021-03-25 04:45:54.063] [remoteagent] [info] [127.0.0.1][f8268800][ExtensionHostConnection] New connection established.
+[2021-03-25 04:45:54.165] [remoteagent] [info] [127.0.0.1][f8268800][ExtensionHostConnection] <160051> Launched Extension Host Process.
+[2021-03-25 04:59:01.839] [remoteagent] [info] [127.0.0.1][8906f122][ManagementConnection] New connection established.
+[2021-03-25 04:59:02.282] [remoteagent] [info] [127.0.0.1][a53f82d1][ExtensionHostConnection] New connection established.
+[2021-03-25 04:59:02.286] [remoteagent] [info] [127.0.0.1][a53f82d1][ExtensionHostConnection] <161750> Launched Extension Host Process.
+[2021-03-25 04:59:06.294] [remoteagent] [info] Terminal layout retrieved: [1]
+[2021-03-25 04:59:06.562] [remoteagent] [info] Replaying 204 chars and 1 size events.
+[2021-03-25 05:06:52.226] [remoteagent] [info] [127.0.0.1][f2cc67bc][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-03-25 05:48:19.754] [remoteagent] [info] [127.0.0.1][f2cc67bc][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-03-25 05:48:19.755] [remoteagent] [info] [127.0.0.1][a53f82d1][ExtensionHostConnection] The client has reconnected.
+[2021-03-25 05:48:28.801] [remoteagent] [info] [127.0.0.1][8906f122][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-03-25 05:53:19.755] [remoteagent] [info] [127.0.0.1][f2cc67bc][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2021-03-25 05:53:20.780] [remoteagent] [info] [127.0.0.1][f8268800][ExtensionHostConnection] <160051> Extension Host Process exited with code: 0, signal: null.
+[2021-03-25 07:46:00.185] [remoteagent] [info] [127.0.0.1][8906f122][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-03-25 07:46:00.185] [remoteagent] [info] [127.0.0.1][c69b037f][ManagementConnection] New connection established.
+[2021-03-25 07:46:00.634] [remoteagent] [info] [127.0.0.1][54a88c46][ExtensionHostConnection] New connection established.
+[2021-03-25 07:46:00.645] [remoteagent] [info] [127.0.0.1][54a88c46][ExtensionHostConnection] <182122> Launched Extension Host Process.
+[2021-03-25 07:46:00.647] [remoteagent] [info] Terminal layout retrieved: [1]
+[2021-03-25 07:46:00.950] [remoteagent] [info] Replaying 204 chars and 1 size events.
+[2021-03-25 07:48:03.258] [remoteagent] [info] [127.0.0.1][c69b037f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-03-25 07:48:04.282] [remoteagent] [info] [127.0.0.1][54a88c46][ExtensionHostConnection] <182122> Extension Host Process exited with code: 0, signal: null.
+[2021-03-25 07:48:20.266] [remoteagent] [info] [127.0.0.1][81fa1c6d][ManagementConnection] New connection established.
+[2021-03-25 07:48:20.726] [remoteagent] [info] [127.0.0.1][8ef90e7e][ExtensionHostConnection] New connection established.
+[2021-03-25 07:48:20.732] [remoteagent] [info] Terminal layout retrieved: []
+[2021-03-25 07:48:20.740] [remoteagent] [info] [127.0.0.1][8ef90e7e][ExtensionHostConnection] <182780> Launched Extension Host Process.
+[2021-03-25 07:51:00.186] [remoteagent] [info] [127.0.0.1][8906f122][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2021-03-25 07:51:01.207] [remoteagent] [info] [127.0.0.1][a53f82d1][ExtensionHostConnection] <161750> Extension Host Process exited with code: 0, signal: null.
+[2021-03-25 07:51:29.206] [remoteagent] [info] [127.0.0.1][81fa1c6d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-03-25 07:51:30.225] [remoteagent] [info] [127.0.0.1][8ef90e7e][ExtensionHostConnection] <182780> Extension Host Process exited with code: 0, signal: null.
+[2021-03-25 07:51:30.225] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-03-25 07:56:30.226] [remoteagent] [info] Last EH closed, shutting down

@@ -10,13 +10,47 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/\<if\>
+
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:q
+|2,0,1617117593,,"q"
+:'<,'>
+|2,0,1616842997,,"'<,'>"
 :wq!
-|2,0,1611197105,,"wq!"
+|2,0,1616634862,,"wq!"
+:ㅈㅂ!
+|2,0,1616155539,,"ㅈㅂ!"
+:50
+|2,0,1615896684,,"50"
+:set nu
+|2,0,1615896682,,"set nu"
+:set nmu
+|2,0,1615896680,,"set nmu"
+:q!
+|2,0,1615889272,,"q!"
+:ㅂㅣㄴ:
+|2,0,1615889270,,"ㅂㅣㄴ:"
 :wq
 |2,0,1611042010,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1616995760,,"@$"
+? \<if\>
+|2,1,1616634347,,"\\<if\\>"
+?/ group
+|2,1,1616634295,47," group"
+?/ 전체
+|2,1,1616634290,47," 전체"
+?/ insert_list
+|2,1,1616634828,47," insert_list"
+?/ insert
+|2,1,1616634373,47," insert"
 
 # Expression History (newest to oldest):
 
@@ -25,257 +59,429 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	CHAR	0
+""0	CHAR	0
+	 
+|3,1,0,0,1,0,1616995760," "
+"1	CHAR	0
 	
 	
-|3,1,1,0,2,0,1611142954,"",""
+|3,0,1,0,2,0,1611142954,"",""
 "2	LINE	0
 	ALLOWED_HOSTS = []
 |3,0,2,1,1,0,1611039522,"ALLOWED_HOSTS = []"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1616634353," "
 
 # File marks:
-'0  28  28  ~/landing/landing_page/landing_page/settings.py
-|4,48,28,28,1611197105,"~/landing/landing_page/landing_page/settings.py"
-'1  37  24  ~/landing/landing_page/eagle/views.py
-|4,49,37,24,1611143227,"~/landing/landing_page/eagle/views.py"
-'2  10  0  ~/landing/landing_page/eagle/views.py
-|4,50,10,0,1611143119,"~/landing/landing_page/eagle/views.py"
-'3  10  0  ~/landing/landing_page/eagle/views.py
-|4,51,10,0,1611143119,"~/landing/landing_page/eagle/views.py"
-'4  41  45  ~/landing/landing_page/eagle/views.py
-|4,52,41,45,1611143038,"~/landing/landing_page/eagle/views.py"
-'5  38  45  ~/landing/landing_page/eagle/views.py
-|4,53,38,45,1611143038,"~/landing/landing_page/eagle/views.py"
-'6  41  45  ~/landing/landing_page/eagle/views.py
-|4,54,41,45,1611143038,"~/landing/landing_page/eagle/views.py"
-'7  38  45  ~/landing/landing_page/eagle/views.py
-|4,55,38,45,1611143038,"~/landing/landing_page/eagle/views.py"
-'8  11  1348  ~/landing/landing_page/eagle/views.py
-|4,56,11,1348,1611142828,"~/landing/landing_page/eagle/views.py"
-'9  47  46  ~/landing/landing_page/eagle/views.py
-|4,57,47,46,1611142828,"~/landing/landing_page/eagle/views.py"
+'0  226  0  ~/ysg_web/sms/views.py
+|4,48,226,0,1617117593,"~/ysg_web/sms/views.py"
+'1  10  0  ~/ysg_web/requirements
+|4,49,10,0,1616995765,"~/ysg_web/requirements"
+'2  4  0  ~/ysg_web/requirements/base.txt
+|4,50,4,0,1616842999,"~/ysg_web/requirements/base.txt"
+'3  213  2  ~/ysg/sms/views.py
+|4,51,213,2,1616634879,"~/ysg/sms/views.py"
+'4  255  6  ~/ysg/sms/views.py
+|4,52,255,6,1616634862,"~/ysg/sms/views.py"
+'5  262  0  ~/ysg/sms/views.py
+|4,53,262,0,1616634752,"~/ysg/sms/views.py"
+'6  262  0  ~/ysg/sms/views.py
+|4,54,262,0,1616634752,"~/ysg/sms/views.py"
+'7  263  22  ~/ysg/sms/views.py
+|4,55,263,22,1616634523,"~/ysg/sms/views.py"
+'8  263  22  ~/ysg/sms/views.py
+|4,56,263,22,1616634523,"~/ysg/sms/views.py"
+'9  263  22  ~/ysg/sms/views.py
+|4,57,263,22,1616634523,"~/ysg/sms/views.py"
 
 # Jumplist (newest first):
--'  28  28  ~/landing/landing_page/landing_page/settings.py
-|4,39,28,28,1611197105,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611197063,"~/landing/landing_page/landing_page/settings.py"
--'  37  24  ~/landing/landing_page/eagle/views.py
-|4,39,37,24,1611143227,"~/landing/landing_page/eagle/views.py"
--'  37  24  ~/landing/landing_page/eagle/views.py
-|4,39,37,24,1611143227,"~/landing/landing_page/eagle/views.py"
--'  10  0  ~/landing/landing_page/eagle/views.py
-|4,39,10,0,1611143193,"~/landing/landing_page/eagle/views.py"
--'  10  0  ~/landing/landing_page/eagle/views.py
-|4,39,10,0,1611143193,"~/landing/landing_page/eagle/views.py"
--'  10  0  ~/landing/landing_page/eagle/views.py
-|4,39,10,0,1611143119,"~/landing/landing_page/eagle/views.py"
--'  10  0  ~/landing/landing_page/eagle/views.py
-|4,39,10,0,1611143119,"~/landing/landing_page/eagle/views.py"
--'  41  45  ~/landing/landing_page/eagle/views.py
-|4,39,41,45,1611143070,"~/landing/landing_page/eagle/views.py"
--'  41  45  ~/landing/landing_page/eagle/views.py
-|4,39,41,45,1611143070,"~/landing/landing_page/eagle/views.py"
--'  41  45  ~/landing/landing_page/eagle/views.py
-|4,39,41,45,1611143070,"~/landing/landing_page/eagle/views.py"
--'  41  45  ~/landing/landing_page/eagle/views.py
-|4,39,41,45,1611143070,"~/landing/landing_page/eagle/views.py"
--'  38  45  ~/landing/landing_page/eagle/views.py
-|4,39,38,45,1611143038,"~/landing/landing_page/eagle/views.py"
--'  38  45  ~/landing/landing_page/eagle/views.py
-|4,39,38,45,1611143038,"~/landing/landing_page/eagle/views.py"
--'  38  45  ~/landing/landing_page/eagle/views.py
-|4,39,38,45,1611143038,"~/landing/landing_page/eagle/views.py"
--'  38  45  ~/landing/landing_page/eagle/views.py
-|4,39,38,45,1611143038,"~/landing/landing_page/eagle/views.py"
--'  11  1348  ~/landing/landing_page/eagle/views.py
-|4,39,11,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  8  1348  ~/landing/landing_page/eagle/views.py
-|4,39,8,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  11  1348  ~/landing/landing_page/eagle/views.py
-|4,39,11,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  8  1348  ~/landing/landing_page/eagle/views.py
-|4,39,8,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  11  1348  ~/landing/landing_page/eagle/views.py
-|4,39,11,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  8  1348  ~/landing/landing_page/eagle/views.py
-|4,39,8,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  11  1348  ~/landing/landing_page/eagle/views.py
-|4,39,11,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  8  1348  ~/landing/landing_page/eagle/views.py
-|4,39,8,1348,1611142947,"~/landing/landing_page/eagle/views.py"
--'  47  46  ~/landing/landing_page/eagle/views.py
-|4,39,47,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  44  46  ~/landing/landing_page/eagle/views.py
-|4,39,44,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  47  46  ~/landing/landing_page/eagle/views.py
-|4,39,47,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  44  46  ~/landing/landing_page/eagle/views.py
-|4,39,44,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  47  46  ~/landing/landing_page/eagle/views.py
-|4,39,47,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  44  46  ~/landing/landing_page/eagle/views.py
-|4,39,44,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  47  46  ~/landing/landing_page/eagle/views.py
-|4,39,47,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  44  46  ~/landing/landing_page/eagle/views.py
-|4,39,44,46,1611142828,"~/landing/landing_page/eagle/views.py"
--'  44  46  ~/landing/landing_page/eagle/views.py
-|4,39,44,46,1611142713,"~/landing/landing_page/eagle/views.py"
--'  44  46  ~/landing/landing_page/eagle/views.py
-|4,39,44,46,1611142713,"~/landing/landing_page/eagle/views.py"
--'  12  16  ~/landing/landing_page/eagle/views.py
-|4,39,12,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  12  16  ~/landing/landing_page/eagle/views.py
-|4,39,12,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  12  16  ~/landing/landing_page/eagle/views.py
-|4,39,12,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  12  16  ~/landing/landing_page/eagle/views.py
-|4,39,12,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142639,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142521,"~/landing/landing_page/eagle/views.py"
--'  9  16  ~/landing/landing_page/eagle/views.py
-|4,39,9,16,1611142521,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  8  46  ~/landing/landing_page/eagle/views.py
-|4,39,8,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  8  46  ~/landing/landing_page/eagle/views.py
-|4,39,8,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142433,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142188,"~/landing/landing_page/eagle/views.py"
--'  7  46  ~/landing/landing_page/eagle/views.py
-|4,39,7,46,1611142188,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  4  65  ~/landing/landing_page/eagle/views.py
-|4,39,4,65,1611142073,"~/landing/landing_page/eagle/views.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
--'  49  2  ~/landing/landing_page/landing_page/settings.py
-|4,39,49,2,1611142006,"~/landing/landing_page/landing_page/settings.py"
+-'  226  0  ~/ysg_web/sms/views.py
+|4,39,226,0,1617117593,"~/ysg_web/sms/views.py"
+-'  1  0  ~/ysg_web/sms/views.py
+|4,39,1,0,1617117565,"~/ysg_web/sms/views.py"
+-'  10  0  ~/ysg_web/requirements
+|4,39,10,0,1616995765,"~/ysg_web/requirements"
+-'  10  0  ~/ysg_web/requirements
+|4,39,10,0,1616995765,"~/ysg_web/requirements"
+-'  4  0  ~/ysg_web/requirements/base.txt
+|4,39,4,0,1616842999,"~/ysg_web/requirements/base.txt"
+-'  4  0  ~/ysg_web/requirements/base.txt
+|4,39,4,0,1616842999,"~/ysg_web/requirements/base.txt"
+-'  4  0  ~/ysg_web/requirements/base.txt
+|4,39,4,0,1616842999,"~/ysg_web/requirements/base.txt"
+-'  4  0  ~/ysg_web/requirements/base.txt
+|4,39,4,0,1616842999,"~/ysg_web/requirements/base.txt"
+-'  1  0  ~/ysg_web/requirements/base.txt
+|4,39,1,0,1616842991,"~/ysg_web/requirements/base.txt"
+-'  1  0  ~/ysg_web/requirements/base.txt
+|4,39,1,0,1616842991,"~/ysg_web/requirements/base.txt"
+-'  1  0  ~/ysg_web/requirements/base.txt
+|4,39,1,0,1616842991,"~/ysg_web/requirements/base.txt"
+-'  1  0  ~/ysg_web/requirements/base.txt
+|4,39,1,0,1616842991,"~/ysg_web/requirements/base.txt"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  213  2  ~/ysg/sms/views.py
+|4,39,213,2,1616634879,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  255  6  ~/ysg/sms/views.py
+|4,39,255,6,1616634862,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634828,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  262  0  ~/ysg/sms/views.py
+|4,39,262,0,1616634752,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  2  0  ~/ysg/sms/views.py
+|4,39,2,0,1616634600,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  1  0  ~/ysg/sms/views.py
+|4,39,1,0,1616634594,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
+-'  263  22  ~/ysg/sms/views.py
+|4,39,263,22,1616634523,"~/ysg/sms/views.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/landing/landing_page/landing_page/settings.py
-	*	1611197104	0
-	"	28	28
-	^	28	29
-	.	28	29
-	+	28	29
-	+	48	3
-	+	49	3
-	+	45	3
-	+	49	3
-	+	28	29
+> ~/ysg_web/sms/views.py
+	*	1617117592	0
+	"	226	0
+
+> ~/ysg_web/requirements/base.txt
+	*	1616842998	0
+	"	4	0
+
+> ~/ysg/sms/views.py
+	*	1616634353	0
+	"	213	2
+	^	254	8
+	.	213	2
+	+	42	17
+	+	115	35
+	+	165	3
+	+	164	127
+	+	17	33
+	+	2	62
+	+	19	52
+	+	35	15
+	+	78	11
+	+	165	3
+	+	164	3
+	+	529	23
+	+	528	8
+	+	518	4
+	+	497	0
+	+	225	4
+	+	221	8
+	+	155	0
+	+	291	0
+	+	295	0
+	+	429	45
+	+	430	0
+	+	447	8
+	+	587	822
+	+	587	614
+	+	588	0
+	+	490	40
+	+	431	45
+	+	437	41
+	+	225	8
+	+	221	0
+	+	371	17
+	+	454	8
+	+	334	4
+	+	308	4
+	+	267	0
+	+	229	8
+	+	225	4
+	+	160	4
+	+	65	12
+	+	67	4
+	+	489	8
+	+	506	4
+	+	213	2
+
+> ~/ysg/sms/templates/sms/createNotice.html
+	*	1616634246	0
+	"	113	5
+
+> ~/ysg/sms/templates/sms/createNotince.html
+	*	1616633968	0
+	"	1	0
+
+> ~/ysg/sms/templates/sms/index.html
+	*	1616565332	0
+	"	256	7
+	^	56	74
+	.	56	73
+	+	63	29
+	+	56	73
+
+> ~/ysg/ysg/settings.py
+	*	1615944284	0
+	"	25	28
+	^	25	29
+	.	25	28
+	+	60	29
+	+	152	22
+	+	57	29
+	+	55	239
+	+	55	209
+	+	21	29
+	+	55	21
+	+	47	0
+	+	5	24
+	+	169	23
+	+	25	17
+	+	39	4
+	+	25	29
+	+	39	4
+	+	25	28
+
+> ~/ysg/sms/templates/sms/noticeDetail.html
+	*	1615896158	0
+	"	1	0
+
+> ~/landing/landing_page/eagle/templates/eagle/index.html
+	*	1615889271	0
+	"	16	0
+	^	16	1
+	.	17	0
+	+	13	0
+	+	12	16
+	+	15	49
+	+	14	4
+	+	18	0
+	+	9	9
+	+	15	82
+	+	17	0
+
+> ~/ysg/sms/templates/sms/m_noticeDetail.html
+	*	1614840417	0
+	"	36	45
+	^	36	46
+	.	36	45
+	+	29	69
+	+	36	25
+	+	29	67
+	+	36	45
+
+> ~/ysg/sms/func/katalk_send.py
+	*	1614840306	0
+	"	50	96
+	^	50	97
+	.	50	96
+	+	80	39
+	+	47	67
+	+	48	67
+	+	47	95
+	+	48	92
+	+	47	77
+	+	48	77
+	+	47	76
+	+	48	76
+	+	47	93
+	+	48	89
+	+	47	80
+	+	48	111
+	+	49	92
+	+	48	93
+	+	49	76
+	+	48	80
+	+	49	94
+	+	47	107
+	+	48	95
+	+	49	113
+	+	48	59
+	+	49	66
+	+	45	64
+	+	81	39
+	+	97	98
+	+	114	8
+	+	97	100
+	+	48	56
+	+	49	56
+	+	47	62
+	+	45	64
+	+	49	94
+	+	98	84
+	+	49	96
+	+	50	96
+
+> ~/ysg/sms/urls.py
+	*	1613723197	0
+	"	7	0
+	^	7	0
+	.	8	0
+	+	9	4
+	+	8	0
+
+> ~/ysg/ysg/urls.py
+	*	1613723156	0
+	"	25	35
+	^	25	36
 
 > ~/landing/landing_page/eagle/views.py
-	*	1611143225	0
-	"	37	24
-	^	37	25
-	.	30	36
+	*	1611213314	0
+	"	40	29
+	^	40	30
+	.	12	0
 	+	4	53
 	+	4	52
 	+	8	45
@@ -286,21 +492,29 @@
 	+	8	0
 	+	5	51
 	+	11	1282
-	+	41	45
+	+	40	45
 	+	6	0
 	+	9	19
 	+	10	0
-	+	28	32
-	+	29	37
-	+	30	36
+	+	27	32
+	+	28	37
+	+	29	36
+	+	26	8
+	+	30	4
+	+	15	8
+	+	12	0
 
-> ~/landing/landing_page/eagle/templates/eagle/index.html
-	*	1611141489	0
-	"	9	16
-	^	9	17
-	.	9	16
-	+	10	0
-	+	9	16
+> ~/landing/landing_page/landing_page/settings.py
+	*	1611207709	0
+	"	28	28
+	^	28	29
+	.	28	29
+	+	28	29
+	+	48	3
+	+	49	3
+	+	45	3
+	+	49	3
+	+	28	29
 
 > ~/landing_page/landing/landing_page/landing_page/settings.py
 	*	1611126275	0
@@ -329,21 +543,7 @@
 	+	49	48
 	+	50	48
 
-> ~/ysg/sms/views.py
-	*	1611042075	0
-	"	39	18
-	^	39	19
-	.	39	17
-	+	39	17
-
 > ~/ysg/sms/func/views.py
 	*	1611042009	0
 	"	1	0
 	^	1	0
-
-> ~/ysg/ysg/settings.py
-	*	1611039608	0
-	"	28	29
-	^	28	30
-	.	28	29
-	+	28	29

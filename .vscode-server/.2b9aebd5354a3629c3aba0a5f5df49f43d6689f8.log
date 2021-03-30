@@ -1,0 +1,54 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 38603
+
+[04:45:52] Extension host agent started.
+[04:45:53] [127.0.0.1][f2cc67bc][ManagementConnection] New connection established.
+[04:45:54] [127.0.0.1][f8268800][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[04:45:54] [127.0.0.1][f8268800][ExtensionHostConnection] <160051> Launched Extension Host Process.
+[04:59:01] [127.0.0.1][8906f122][ManagementConnection] New connection established.
+[04:59:02] [127.0.0.1][a53f82d1][ExtensionHostConnection] New connection established.
+[04:59:02] [127.0.0.1][a53f82d1][ExtensionHostConnection] <161750> Launched Extension Host Process.
+[04:59:06] Terminal layout retrieved: [1]
+[04:59:06] Replaying 204 chars and 1 size events.
+[05:06:52] [127.0.0.1][f2cc67bc][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/bootstrap.js:1:370)
+    at process.emit (events.js:315:20)
+[05:48:19] [127.0.0.1][f2cc67bc][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[05:48:19] [127.0.0.1][a53f82d1][ExtensionHostConnection] The client has reconnected.
+[05:48:28] [127.0.0.1][8906f122][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/bootstrap.js:1:370)
+    at process.emit (events.js:315:20)
+[05:53:19] [127.0.0.1][f2cc67bc][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[05:53:20] [127.0.0.1][f8268800][ExtensionHostConnection] <160051> Extension Host Process exited with code: 0, signal: null.
+[07:46:00] [127.0.0.1][8906f122][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[07:46:00] [127.0.0.1][c69b037f][ManagementConnection] New connection established.
+[07:46:00] [127.0.0.1][54a88c46][ExtensionHostConnection] New connection established.
+[07:46:00] [127.0.0.1][54a88c46][ExtensionHostConnection] <182122> Launched Extension Host Process.
+[07:46:00] Terminal layout retrieved: [1]
+[07:46:00] Replaying 204 chars and 1 size events.
+[07:48:03] [127.0.0.1][c69b037f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:48:04] [127.0.0.1][54a88c46][ExtensionHostConnection] <182122> Extension Host Process exited with code: 0, signal: null.
+[07:48:20] [127.0.0.1][81fa1c6d][ManagementConnection] New connection established.
+[07:48:20] [127.0.0.1][8ef90e7e][ExtensionHostConnection] New connection established.
+[07:48:20] Terminal layout retrieved: []
+[07:48:20] [127.0.0.1][8ef90e7e][ExtensionHostConnection] <182780> Launched Extension Host Process.
+[07:51:00] [127.0.0.1][8906f122][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[07:51:01] [127.0.0.1][a53f82d1][ExtensionHostConnection] <161750> Extension Host Process exited with code: 0, signal: null.
+[07:51:29] [127.0.0.1][81fa1c6d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:51:30] [127.0.0.1][8ef90e7e][ExtensionHostConnection] <182780> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[07:51:30] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[07:56:30] Last EH closed, shutting down
